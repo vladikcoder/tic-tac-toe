@@ -1,0 +1,53 @@
+#tablediv {
+  text-align: center;  
+}
+
+#toe-table {
+  border-collapse: collapse; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#restart-btn {
+  background: lightgrey;
+  border: 0;
+  border-radius: 5px;
+  color: #FFF;
+  padding: 10px; 
+}
+
+#restart-btn:hover {
+  background: #d6e5ff;
+}
+
+td {
+  border: 10px solid grey;
+  padding: 0;
+  width: 100px;
+  height: 100px;
+}
+
+td[data-align='corner'] {
+  border: none;
+}
+
+td[data-align='mid-top'] {
+  border-top: none;
+}
+
+td[data-align='mid-bot'] {
+  border-bottom: none;
+}
+
+td[data-align='mid-left'] {
+  border-left: none;
+}
+
+td[data-align='mid-right'] {
+  border-right: none;
+}
+
+img {
+  display: block;
+  transition: 1s ease-in-out;
+}
